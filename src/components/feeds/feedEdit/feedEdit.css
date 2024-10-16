@@ -1,0 +1,35 @@
+.new-post__image-preview {
+    height: 120px;
+    width: 150px;
+}
+
+.feed-edit-popup {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+@media(max-width: 800px){
+    .feed-edit-popup{
+        width: 90%;
+    }
+}
+.creat-post-reminder__authentication {
+    color: red;
+    margin: 0 auto;
+};
+
+.signup-prompt {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2rem;
+}
+@media(max-width: 500px){
+    .signup-prompt {
+        flex-direction: column;
+    }
+}

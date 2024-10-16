@@ -1,0 +1,49 @@
+
+.input {
+    margin: 0.1rem 0;
+    width: 93%;
+  }
+  
+  .input > label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: large;
+  }
+  input{
+    height: 1.5rem;
+  }
+  .input > input,
+  .input > textarea {
+    display: block;
+    font: inherit;
+    padding: 0.3rem 0.5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    line-height: 1.1rem;
+    /* border: 1.5px solid rgb(37, 13, 75); */
+    border: 1.5px solid rgba(37, 13, 75, 0.473);
+
+  }
+  
+  .input .touched.invalid {
+      border-color: red;
+      background: #ffc2c2;
+  }
+  
+  .input input:focus,
+  .input > textarea:focus {
+    outline: none;
+    border-color: #3b0062;
+    background-color: #f6f1f8;
+  }
+  
+  .input__error-message {
+    color: rgba(255, 0, 0, 0.644);
+    margin: 0px;
+    font-weight: lighter;
+  }
+
+  .file-picker {
+    cursor: pointer;
+  }
